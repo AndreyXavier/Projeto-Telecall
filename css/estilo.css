@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+      
+}
+
+/*editando a imagem do meu cadastro e login*/ 
+
+.logo img{
+    margin-top: 25px;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.logo1 img{
+    margin-top: 20px;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+/*editando o meu formulário da tela de cadastro*/
+
+.logo{
+    border-radius: 3px;
+    box-shadow: 2px 2px 14px #00000021;
+    background-color: white;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 130px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.logo .centro{
+    border-radius: 3px;
+    padding: 6px;
+    box-sizing: border-box;
+    width: 290px;
+    text-align: center;
+}
+
+/*editando o tamanho e a cor dos botões na tela de cadastro*/
+
+.logo .teste {
+    border-radius: 3px;
+    padding: 7px;
+    border:2px solid #ca1c2a;
+    font-weight: bold;
+    color: white;
+    background-color: #ca1c2a;
+    cursor: pointer;
+    width: 150px;
+    margin: 3px;
+    
+}
+
+/*editando o tamanho e a cor dos botões na tela de cadastro*/
+.logo .teste1{
+    border-radius: 3px;
+    padding: 7px;
+    border:2px solid #ca1c2a;
+    font-weight: bold;
+    color: white;
+    background-color: #ca1c2a;
+    cursor: pointer;
+    width: 150px;
+    margin: 10px;
+}
+
+.logo{
+    background: url(../imagens/imagem.jpg) top center/130% no-repeat;
+}
+
+.b{
+    background-color: rgb(241 241 241);
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+.logo1{
+    border-radius: 3px;
+    box-shadow: 2px 2px 14px #00000063;
+    background-color: #ffffff85;
+    display: inline-flex;
+    padding: 200px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+
+.a {
+    background-color: rgb(241 241 241);
+    padding-top: 75px;
+}
+
+.logo1{
+    background: url(../imagens/imagem-teste1.jpg) top center/135% no-repeat;
+
+}
+
+/*editando o meu formulário da tela de login*/
+.logo1 .centro {
+    border-radius: 3px;
+    padding: 6px;
+    box-sizing: border-box;
+    width: 290px;
+    position: relative;
+}
+
+/*editando os botões da tela de login*/
+.logo1 .teste{
+    border-radius: 3px;
+    padding: 7px;
+    border:2px solid #ca1c2a;
+    font-weight: bold;
+    color: white;
+    background-color: #ca1c2a;
+    cursor: pointer;
+    width: 180px;
+    margin: 3px;
+    
+}
+
+.logo1 .teste1{
+    border-radius: 3px;
+    padding: 7px;
+    border:2px solid #ca1c2a;
+    font-weight: bold;
+    color: white;
+    background-color: #ca1c2a;
+    cursor: pointer;
+    width: 150px;
+    margin: 10px;
+    
+}
+
+
+/*editando os avisos de erro*/
+#aviso1{
+    color: #ff0f0f;
+}
+
+#aviso2{
+    color: #ff0f0f;
+}
+
+#aviso3{
+    color: #ff0f0f;
+}
+
+#aviso4{
+    color: #ff0f0f;
+}
+
+#aviso5{
+    color: #ff0f0f;
+}
+
+#aviso6{
+    color: #ff0f0f;
+}
+
+#aviso7{
+    color: #ff0f0f;
+}
+
+#aviso8{
+    color: #ff0f0f;
+}
+
+#aviso9{
+    color: #ff0f0f;
+}
+
+#aviso10{
+    color: #ff0f0f;
+}
+
+#aviso11{
+    color: #ff0f0f;
+}
+
+#aviso12{
+    color: #ff0f0f;
+}
+
+#aviso13{
+    color: #ff0f0f;
+}
+
+#aviso14{
+    color: #ff0f0f;
+}
+
+#aviso15{
+    color: #ff0f0f;
+}
+
+#aviso16{
+    color: #ff0f0f;
+}
+
+#aviso17{
+    color: #ff0f0f;
+}

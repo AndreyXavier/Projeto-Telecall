@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="icon" href="imagens/icone.ico">
+    <link rel="stylesheet" href="css/noturno.css">
+</head>
+<body>
+  <header>
+    
+    <!--Aqui é o meu cabeçalho-->
+    <nav class="navbar navbar-expand-lg" style="background-color: #fc6060;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="imagens/telecall-logo1.png" height="45"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" href="index.html">Home</a>
+          </li>
+      
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              CPaaS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #fc6060;">
+              <li><a class="dropdown-item" href="html/o que e.html">O que é?</a></li>
+              <li><a class="dropdown-item" href="html/transformacao digital.html">Transformação Digital</a></li>
+              <li><a class="dropdown-item" href="html/usos.html">Usos</a></li>
+              <li><a class="dropdown-item" href="html/vantagens.html">Vantagens</a></li>
+            </ul>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Plataforma e Soluções
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #fc6060;">
+              <li><a class="dropdown-item" href="html/2fa.html">2FA</a></li>
+              <li><a class="dropdown-item" href="html/numero mascara.html">Número Máscara</a></li>
+              <li><a class="dropdown-item" href="html/google calls.html">Google Verified Calls</a></li>
+              <li><a class="dropdown-item" href="html/sms.html">SMS Programável</a></li>
+            </ul>
+
+            <li class="nav-item">
+              <a class="nav-link active text-dark" aria-current="page" href="html/contato.html">Contato</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active text-dark" aria-current="page" href="html/area cliente.html">
+                <i class="bi bi-person-circle"></i> <span id="loga">Área do Cliente</span>
+              </a>
+            </li>
+
+            <!--Aqui são os meu ícones para o modo noturno-->
+            <li class="nav-item">
+              <a class="nav-link active text-dark text-end">Acessibilidade:
+                <i class="bi bi-sun float-end" onclick="lightMode()" style="font-size: 18px; margin-left: 7px;"></i>
+                <i class="bi bi-moon float-end" onclick="darkMode()" style="font-size: 18px; margin-left: 7px;"></i>
+              </a>
+            </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  </header> <br>
+
+  <!--Aqui é o meu carrossel com as imagens-->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="margin-right: 45px; margin-left: 40px;">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <img src="imagens/banner-desk-pabx-dudu.png" class="d-block w-100">
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="imagens/TELECALL-01-texto.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="imagens/banner190520.png" class="d-block w-100">
+      </div>
+      <div class="carousel-item" data-bs-interval="6000">
+        <img src="imagens/TELECALL-02.jpg" class="d-block w-100">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--Conteúdo da minha página-->
+  <p class="p-4 fs-5">Com início em 1998 oferecendo serviços de voz no Japão, a divisão internacional Telecall Wholesale foi criada com o objetivo de apoiar o setor de varejo da empresa. Desde seu lançamento, a Telecall Wholesale sempre teve muita pressão interna para oferecer serviços de alta qualidade com tarifas competitivas em um mercado extremamente competitivo. Com essa filosofia, a Telecall focou no mercado internacional e alcançou uma cobertura global com parceiros estratégicos, obtendo hoje, mais de 600 interconexões com algumas das maiores operadoras do mundo. <br><br>
+
+    Com uma enorme capacidade de lidar com diferentes mercados e culturas, a Telecall Wholesale pôde apoiar e adaptar-se quando a empresa lançou em 2005, um produto de varejo nos EUA, um dos mercados mais competitivos do mundo. <br><br>
+    
+    Outro desafio veio em 2010, quando a Telecall decidiu construir sua própria rede de fibra óptica na cidade do Rio de Janeiro, no Brasil, e começou a oferecer serviços empresariais de voz e dados. <br><br>
+    
+    Em um curto espaço de tempo a Telecall vem ganhando respeito nacional e internacional, e fez história ao participar com muito sucesso nos Jogos Olímpicos de 2014 no Brasil e do Rock in Rio em 2017. <br><br>
+    
+    Após quase 20 anos de sucesso e crescimento exponencial, a Telecall Wholesale é conhecida hoje como uma Global Carrier, com sólidas relações comerciais, capaz de se adaptar e lidar com os constantes desafios e mudanças do mundo dos negócios.
+  </p> <br>
+
+
+  <center>
+    <h1 style="color: red; text-decoration: underline;">Interconexões</h1> <br>
+    <img src="imagens/mapa.jpg" class="img-fluid" style="max-width: 60%; border-radius: 14px; border-top:4px solid rgb(238, 234, 234); border-left:3px solid rgb(238, 234, 234);"> <br><br><br><br><br>
+
+    <h1 style="color: red; text-decoration: underline;">Parceiros</h1> <br>
+    <img src="imagens/parceiros11.png" class="img-fluid" style="max-width: 70%; border-radius: 14px; border-bottom:4px solid rgb(238, 234, 234); border-right:3px solid rgb(238, 234, 234);">
+  </center>
+
+
+<!--Aqui é o meu rodapé-->
+<br><br><br><br>
+  <footer class="bg-dark text-light">
+    <div class="container-fluid py-3">
+    <div class="row">
+      <div class="col-4">
+        <ul class="nav flex-column">
+          <li class="nav-link"><img src="imagens/icone.ico" height="40"></li>
+          <li class="nav-link"><a href="index.html">Home</a></li>
+          <li class="nav-link"><a href="html/contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div class="col-8">
+        <p>
+          A Telecall é uma operadora regulada pela ANATEL, detentora de uma rede de fibra própria, de alta capacidade que oferece aos seus clientes uma nova experiência de telefonia e Internet empresarial, com o mais alto padrão de qualidade, velocidade e disponibilidade.
+        </p>
+        <ul class="nav">
+          <a href="https://www.facebook.com/TelecallBr" target="_blank"><li class="nav-link" ><i class="bi bi-facebook" style="font-size: 30px;"></i></li></a>
+          <a href="http://www.instagram.com/telecallbr/" target="_blank"><li class="nav-link"><i class="bi bi-instagram" style="font-size: 30px;"></i></li></a>
+          <a href="https://www.linkedin.com/company/telecall/" target="_blank"><li class="nav-link"><i class="bi bi-linkedin" style="font-size: 30px;"></i></li></a>
+          <a href="https://api.whatsapp.com/send/?phone=5521936180100&text&app_absent=0" target="_blank"><li class="nav-link"><i class="bi bi-whatsapp" style="font-size: 30px;"></i></li></a>
+        </ul>
+      </div>
+    </div>
+    </div>
+    <div class="text-center" style="background-color: #333; padding: 20px;" >
+      Copyright &copy; 2022 Andrey Xavier. Todos os direitos reservados.
+    </div>
+  </footer>
+  <script src="javascript/java3.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>

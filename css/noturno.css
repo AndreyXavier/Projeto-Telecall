@@ -1,0 +1,28 @@
+/*aplicando transição do modo claro para o modo noturno ou vice-versa*/
+body{
+    transition: background 0.2s linear;
+}
+
+/*ativando o modo noturno do site*/
+.dark-mode{
+    background-color: #0d151e;
+    color: rgba(255, 255, 255, 0.938);
+    
+}
+
+/*ativando o modo claro do site*/
+.light-mode{
+    background-color: white;
+    color: black;
+}
+
+/*editando o ícone do sol para parecer clicável*/
+.bi-sun{
+    cursor: pointer;
+}
+
+/*editando o ícone da lua para parecer clicável*/
+.bi-moon{
+    cursor: pointer;
+
+}
